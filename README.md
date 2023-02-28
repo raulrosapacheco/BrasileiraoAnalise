@@ -22,7 +22,7 @@ Você poderá acessar o Dashboard clicando em:
 ## Fonte Dos Dados
 Os dados originais foram extraídos da fonte: https://github.com/adaoduque/Brasileirao_Dataset. 
 
-Você também pode encontra-los na pasta *dados_originais* ou no data.world através do link: https://data.world/raulrosa/brasileirao
+Você também pode encontrá-los na pasta *dados_originais* ou no data.world através do link: https://data.world/raulrosa/brasileirao
 
 ## Tecnologias Utilizadas
 * SQL (data.world)
@@ -50,7 +50,7 @@ Você também pode encontra-los na pasta *dados_originais* ou no data.world atra
 
 **6** - Para facilitar a visualização dos dados e responder as 5 perguntas de negócio, foi utilizado o Power BI. Essa ferramenta permite que os dados sejam importados diretamente da sua conta no data.world.
 
-O arquivos .csv contendo os dados finais e utilizados como fonte para criação do Dashboard no Power BI, também podem ser encontrados nas pasta *dados_transformados_python*. 
+Os arquivos .csv contendo os dados finais e utilizados como fonte para criação do Dashboard no Power BI, também podem ser encontrados nas pasta *dados_transformados_python*. 
 
 Muitas das variáveis tratadas utilizando linguagem python não foram utilizadas para criação do dashboard proposto, contudo foram mantidas com o objetivo de serem úteis para futuras análises.
 
@@ -81,7 +81,7 @@ Você também pode acessar o Dashboard de forma interativa clicando em:
 
 3 - Quais clubes possuem o maior percentual de posse de bola?
 
-4 - Qual o número medio de faltas, cartões, escanteios, chutes e gols por jogo?
+4 - Qual o número médio de faltas, cartões, escanteios, chutes e gols por jogo?
 
 ## Contato
 Para possíveis dúvidas, críticas ou sugestões sobre o presente projeto.
