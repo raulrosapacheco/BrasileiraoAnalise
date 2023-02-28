@@ -29,7 +29,7 @@ Você também pode encontrá-los na pasta *dados_originais* ou no data.world atr
 * Python (Google Colab)
 * Power BI
 
-## Como Reproduzir Os Resultados
+## Como Reproduzir O Projeto
 
 **1** - Os arquivos .csv presentes na pasta *dados_originais* foram carregados em um dataset do data.world: <a href="https://data.world/raulrosa/brasileirao"> brasileirao0322</a>.
 
@@ -88,4 +88,4 @@ Para possíveis dúvidas, críticas ou sugestões sobre o presente projeto.
 
 E-mail: raulrosa.dev@gmail.com
 
-LinkedIn: linkedin.com/in/raul-rosa/
+LinkedIn: [linkedin.com/in/raul-rosa/](https://www.linkedin.com/in/raul-rosa/)
