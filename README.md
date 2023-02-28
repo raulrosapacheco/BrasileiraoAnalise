@@ -14,7 +14,7 @@ Este projeto visa analisar os dados de 3.039 partidas do campeonado brasileiro d
 
 Estes dados serão posteriormente apresentados em um modelo de visualização utilizando o Power BI.
 
-As perguntas 1 e 2 poderão ser respondidas de forma segmentada por ano, rodada e estádio. Já as perguntas 3, 4 e 5 podem ser respondidas de forma segmentada por clube. 
+As perguntas 1 e 2 poderão ser respondidas de forma segmentada por ano, rodada e estádio. Já as perguntas 3, 4 e 5 poderão ser respondidas de forma segmentada por clube. 
 
 Você poderá acessar o Dashboard clicando em:
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNjI2YjkxMjktZDEzOS00NTIyLWFiOWMtMjFiNjA4MzE0Njc5IiwidCI6IjUzYmMxZDQ4LTgxMWEtNGI0Ny1hYzFkLWRhYzQ2NmQwMjZjYSJ9">Dashboard Analítico do Brasileirão Série A</a>. 
@@ -41,7 +41,7 @@ Você também pode encontra-los na pasta *dados_originais* ou no data.world atra
 
 **3** - Por meio da instalação da <a href="https://pypi.org/project/datadotworld/">Biblioteca Datadotworld</a> em um notebook do Google Colab foi possível:
 * Carregar os arquivos .csv presentes no data.world em diferentes dataframes da biblioteca pandas;
-* Tratar os valores ausentes utilizando linguagem Python;
+* Tratar de dados e valores ausentes utilizando linguagem Python;
 * Gravar os arquivos com as transformações no data.world.
 
 **4** - Todo a passo a passo em python pode ser acessado em: <a href="https://colab.research.google.com/drive/1fJ0LC2SXrRXolNPIRyBDqaZUSkQTXWhL?usp=sharing">AnaliseBrasileirao</a>.
@@ -69,6 +69,9 @@ Analisando o print do dashboard acima para todas as 3.039 partidas, é possível
 **4 - Quem são os maiores artilheiros do campeonato?**
 
 **5 - Qual período do jogo costuma sair o maior número de gols?**
+
+Você também pode acessar o Dashboard de forma interativa clicando em:
+<a href="https://app.powerbi.com/view?r=eyJrIjoiNjI2YjkxMjktZDEzOS00NTIyLWFiOWMtMjFiNjA4MzE0Njc5IiwidCI6IjUzYmMxZDQ4LTgxMWEtNGI0Ny1hYzFkLWRhYzQ2NmQwMjZjYSJ9">Dashboard Analítico do Brasileirão Série A</a>. 
 
 ## Sugestões Para Projetos Futuros
 
