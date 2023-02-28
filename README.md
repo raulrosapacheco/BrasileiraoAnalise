@@ -72,10 +72,15 @@ Analisando o print do dashboard acima para todas as 3.039 partidas, é possível
 
 ## Sugestões Para Projetos Futuros
 
-**1 - Quais clubes com o maior número de faltas?**
+1 - Quais clubes com o maior número de faltas?
 
-**2 - Em qual período do jogo costuma ter o maior número de faltas e cartões?**
+2 - Em qual período do jogo costuma ter o maior número de faltas e cartões?
 
-**3 - Quais clubes possuem o maior percentual de posse de bola?**
+3 - Quais clubes possuem o maior percentual de posse de bola?
 
-**4 - Qual o número medio de faltas, cartões, escanteios, chutes e gols por jogo?**
+4 - Qual o número medio de faltas, cartões, escanteios, chutes e gols por jogo?
+
+## Contato
+Para possíveis dúvidas, críticas ou sugestões sobre o presente projeto.
+E-mail: raulrosa.dev@gmail.com
+LinkedIn: linkedin.com/in/raul-rosa/
