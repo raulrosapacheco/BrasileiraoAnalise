@@ -1,0 +1,45 @@
+# Todas as consultas foram filtradas com dados de partidas a partir do ano de 2015
+
+# Consulta 1: partidas.csv
+# O nome da coluna id será modificado para partida_id para manter o padrão das outras tabelas
+# O nome da coluna 'rodata' será corrigido para 'rodada'
+# As colunas 'formação_mandante' e 'formação_visitante' não foram selecionadas por representar dados considerados irrelevantes para análise.
+
+SELECT id AS partida_id, rodata AS rodada, data, hora, mandante, visitante, tecnico_mandante, tecnico_visitante, vencedor, arena, mandante_placar, 
+visitante_placar, mandante_estado, visitante_estado
+FROM campeonato_brasileiro_full
+WHERE YEAR(data) >= 2015;
+
+
+# Consulta 2: estatisticas.csv 
+# A coluna 'rodata' não foi selecionada por representar um dado já contido em partidas.csv
+# A coluna 'chute_no_alvo' não foi selecionada por em sua grande maioria estar preenchida por 0
+# As colunas 'cartao_amarelo' e 'cartão_vermelho' foram descartadas por representar uma informação já contida no arquivo cartoes.csv
+
+SELECT E.partida_id, E.clube, chutes, E.posse_de_bola, E.passes, E.precisao_passes, E.faltas, E.impedimentos, E.escanteios
+FROM campeonato_brasileiro_estatisticas_full E
+INNER JOIN campeonato_brasileiro_full F
+ON E.partida_id = F.id
+WHERE YEAR(F.data) >= 2015;
+
+
+# Consulta 3: gols.csv
+# A coluna 'rodata' não foi selecionada por representar um dado já contido em partidas.csv
+
+SELECT G.partida_id, G.clube, G.atleta, G.minuto, G.tipo_de_gol
+FROM campeonato_brasileiro_full F 
+INNER JOIN campeonato_brasileiro_gols G
+ON F.id = G.partida_id
+WHERE YEAR(F.data) >= 2015;
+
+
+# Consulta 4: cartoes.csv
+# A coluna 'rodata' não foi selecionada por representar um dado já contido em partidas.csv
+# A coluna 'num_camisa' não foi selecionada por não representar uma informação relevante
+
+SELECT C.partida_id, C.clube, C.cartao, C.atleta, C.posicao, C.minuto
+FROM campeonato_brasileiro_cartoes C
+INNER JOIN campeonato_brasileiro_full F
+ON C.partida_id = F.id
+WHERE YEAR(F.data) >= 2015; 
+
