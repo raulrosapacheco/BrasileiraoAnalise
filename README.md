@@ -43,10 +43,12 @@ Você também pode encontra-los na pasta *dados_originais* ou no data.world atra
 * Carregar os arquivos .csv presentes no data.world em diferentes dataframes da biblioteca pandas;
 * Tratar os valores ausentes utilizando linguagem Python;
 * Gravar os arquivos com as transformações no data.world.
-* Todo a passo a passo em python pode ser acessado em: <a href="https://colab.research.google.com/drive/1fJ0LC2SXrRXolNPIRyBDqaZUSkQTXWhL?usp=sharing">AnaliseBrasileirao</a>.
-* Todo o projeto utilizando o data.world pode ser acessado em: https://data.world/raulrosa/brasileirao1522.
 
-**4** - Para facilitar a visualização dos dados e responder as 5 perguntas de negócio, foi utilizado o Power BI. Essa ferramenta permite que os dados sejam importados diretamente da sua conta no data.world.
+**4** - Todo a passo a passo em python pode ser acessado em: <a href="https://colab.research.google.com/drive/1fJ0LC2SXrRXolNPIRyBDqaZUSkQTXWhL?usp=sharing">AnaliseBrasileirao</a>.
+
+**5** - Todo o projeto utilizando o data.world pode ser acessado em: https://data.world/raulrosa/brasileirao1522.
+
+**6** - Para facilitar a visualização dos dados e responder as 5 perguntas de negócio, foi utilizado o Power BI. Essa ferramenta permite que os dados sejam importados diretamente da sua conta no data.world.
 
 O arquivos .csv contendo os dados finais e utilizados como fonte para criação do Dashboard no Power BI, também podem ser encontrados nas pasta *dados_transformados_python*. 
 
