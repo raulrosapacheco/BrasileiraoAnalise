@@ -52,7 +52,7 @@ Você também pode encontra-los na pasta *dados_originais* ou no data.world atra
 
 O arquivos .csv contendo os dados finais e utilizados como fonte para criação do Dashboard no Power BI, também podem ser encontrados nas pasta *dados_transformados_python*. 
 
-Muitos dos dados tratados e disponiveis nos arquivos .csv finais não foram utilizados para criação do Dashboard proposto, porém foram mantidos com o objetivo de serem necessários para futuras análises.
+Muitas das variáveis tratadas utilizando linguagem python e disponíveis nas colunas dos arquivos .csv finais, não foram utilizadas para criação do dashboard proposto, porém foram mantidas com o objetivo de serem necessárias para futuras análises.
 
 ## Resultados 
 
