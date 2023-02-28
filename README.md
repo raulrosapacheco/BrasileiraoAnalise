@@ -14,7 +14,7 @@ Este projeto visa analisar os dados de 3.039 partidas do campeonado brasileiro d
 
 Estes dados serão posteriormente apresentados em um modelo de visualização utilizando o Power BI.
 
-As perguntas 1 e 2 poderão ser respondidas de forma segmentada por ano, rodada e estádio. Já as perguntas 3, 4 e 5 por clube. 
+As perguntas 1 e 2 poderão ser respondidas de forma segmentada por ano, rodada e estádio. Já as perguntas 3, 4 e 5 podem ser respondidas de forma segmentada por clube. 
 
 Você poderá acessar o Dashboard clicando em:
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNjI2YjkxMjktZDEzOS00NTIyLWFiOWMtMjFiNjA4MzE0Njc5IiwidCI6IjUzYmMxZDQ4LTgxMWEtNGI0Ny1hYzFkLWRhYzQ2NmQwMjZjYSJ9">Dashboard Analítico do Brasileirão Série A</a>. 
@@ -82,5 +82,7 @@ Analisando o print do dashboard acima para todas as 3.039 partidas, é possível
 
 ## Contato
 Para possíveis dúvidas, críticas ou sugestões sobre o presente projeto.
+
 E-mail: raulrosa.dev@gmail.com
+
 LinkedIn: linkedin.com/in/raul-rosa/
