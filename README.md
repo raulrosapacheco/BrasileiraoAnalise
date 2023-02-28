@@ -1,6 +1,6 @@
 # Análise Do Brasileirão - Série A
  
-Este projeto visa analisar os dados de 3.039 partidas do campeonado brasileiro de futebol masculino (serie A) referentes aos anos de 2015 até 2022, para responder a 5 perguntas de negócio.
+Este projeto visa analisar os dados de 3.039 partidas do campeonato brasileiro de futebol masculino (série a) referentes aos anos de 2015 a 2022, para responder as 5 perguntas de negócio:
 
 **1 - Quais clubes venceram mais partidas?**
 
@@ -22,16 +22,16 @@ Você poderá acessar o Dashboard clicando em:
 ## Fonte Dos Dados
 Os dados originais foram extraídos da fonte: https://github.com/adaoduque/Brasileirao_Dataset. 
 
-Você também pode encontra-los na pasta *dados_originais* ou no data.world através do link: https://data.world/raulrosa/brasileirao
+Você também pode encontrá-los na pasta *dados_originais* ou no data.world através do link: https://data.world/raulrosa/brasileirao
 
 ## Tecnologias Utilizadas
 * SQL (data.world)
 * Python (Google Colab)
 * Power BI
 
-## Como Reproduzir Os Resultados
+## Como Reproduzir O Projeto
 
-**1** - Os arquivos .csv presentes na pasta dados_originais foram carregados em um dataset do data.world: <a href="https://data.world/raulrosa/brasileirao"> brasileirao0322</a>.
+**1** - Os arquivos .csv presentes na pasta *dados_originais* foram carregados em um dataset do data.world: <a href="https://data.world/raulrosa/brasileirao"> brasileirao0322</a>.
 
 **2** - Utilizando consultas em SQL no data.world, foi criado um novo dataset: <a href="https://data.world/raulrosa/brasileirao1522">brasileirao1522</a>, com algumas transformações iniciais no intuito de:
 * Selecionar apenas a colunas consideradas relevantes para análise;
@@ -50,9 +50,9 @@ Você também pode encontra-los na pasta *dados_originais* ou no data.world atra
 
 **6** - Para facilitar a visualização dos dados e responder as 5 perguntas de negócio, foi utilizado o Power BI. Essa ferramenta permite que os dados sejam importados diretamente da sua conta no data.world.
 
-O arquivos .csv contendo os dados finais e utilizados como fonte para criação do Dashboard no Power BI, também podem ser encontrados nas pasta *dados_transformados_python*. 
+Os arquivos .csv contendo os dados finais e utilizados como fonte para criação do Dashboard no Power BI, também podem ser encontrados nas pasta *dados_transformados_python*. 
 
-Muitas das variáveis tratadas utilizando linguagem python e disponíveis nas colunas dos arquivos .csv finais, não foram utilizadas para criação do dashboard proposto, porém foram mantidas com o objetivo de serem necessárias para futuras análises.
+Muitas das variáveis tratadas utilizando linguagem python não foram utilizadas para criação do dashboard proposto, contudo foram mantidas com o objetivo de serem úteis para futuras análises.
 
 ## Resultados 
 
@@ -81,11 +81,11 @@ Você também pode acessar o Dashboard de forma interativa clicando em:
 
 3 - Quais clubes possuem o maior percentual de posse de bola?
 
-4 - Qual o número medio de faltas, cartões, escanteios, chutes e gols por jogo?
+4 - Qual o número médio de faltas, cartões, escanteios, chutes e gols por jogo?
 
 ## Contato
 Para possíveis dúvidas, críticas ou sugestões sobre o presente projeto.
 
 E-mail: raulrosa.dev@gmail.com
 
-LinkedIn: linkedin.com/in/raul-rosa/
+LinkedIn: [linkedin.com/in/raul-rosa/](https://www.linkedin.com/in/raul-rosa/)
