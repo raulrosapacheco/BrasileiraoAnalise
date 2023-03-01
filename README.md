@@ -19,6 +19,8 @@ As perguntas 1 e 2 poderão ser respondidas de forma segmentada por ano, rodada 
 Você poderá acessar o Dashboard clicando em:
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNjI2YjkxMjktZDEzOS00NTIyLWFiOWMtMjFiNjA4MzE0Njc5IiwidCI6IjUzYmMxZDQ4LTgxMWEtNGI0Ny1hYzFkLWRhYzQ2NmQwMjZjYSJ9">Dashboard Analítico do Brasileirão Série A</a>. 
 
+Observação: O Brasileirão Séria A possui 380 rodadas por ano, totalizando 3.040 partidas entre os anos de 2015 a 2022 (8 anos). Contudo no ano de 2016 a partida entre Chapecoense e Atletico Mg foi cancelada em decorrência do trágico acidente aéreo da Chape.
+
 ## Fonte Dos Dados
 Os dados originais foram extraídos da fonte: https://github.com/adaoduque/Brasileirao_Dataset. 
 
