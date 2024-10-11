@@ -1,6 +1,6 @@
 # Análise Do Brasileirão - Série A
  
-Este projeto visa analisar os dados de 3.039 partidas do campeonato brasileiro de futebol masculino (série a) referentes aos anos de 2015 a 2022, para responder as 5 perguntas de negócio:
+Este projeto visa analisar os dados de 3.419 partidas do campeonato brasileiro de futebol masculino (série a) referentes aos anos de 2015 a 2023, para responder as 5 perguntas de negócio:
 
 **1 - Quais clubes venceram mais partidas?**
 
